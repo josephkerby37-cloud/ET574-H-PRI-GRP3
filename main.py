@@ -4,8 +4,10 @@ import tracker
 
 
 def main():
+    print("=" * 35)
     print("Welcome to Reading List Tracker!")
-
+    print("Track your books and reading time.")
+    print("=" * 35)
     while True:
         print("\n1. Add Book")
         print("2. View Reading List")
