@@ -7,6 +7,7 @@ def add_session():
     """Add a book or article to the reading list."""
 
     title = input("Enter book title: ").strip()
+    
 
     while title == "":
         print("Book title cannot be empty.")
